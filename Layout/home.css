@@ -1,0 +1,114 @@
+body {
+      background-color: #f7e4b2;
+    }
+    .cart-container {
+      background-color: #f7e4b2;
+      border: 1px solid #c7a978;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 30px auto;
+      max-width: 1000px;
+    }
+    .cart-item {
+      border-top: 1px solid #c7a978;
+      padding: 20px 0;
+    }
+    .cart-item img {
+      max-width: 180px;
+      border-radius: 8px;
+    }
+    .btn-buy {
+      background-color: #6e6b2c;
+      color: white;
+      border-radius: 20px;
+      padding: 6px 20px;
+    }
+    .btn-buy:hover {
+      background-color: #54511e;
+    }
+    .remove-link {
+      color: red;
+      font-weight: 500;
+      text-decoration: underline;
+    }
+    .btn-continue {
+      background-color: #d89d9a;
+      color: black;
+      border: none;
+      padding: 8px 18px;
+      border-radius: 8px;
+    }
+    .btn-checkout {
+      background-color: #6e6b2c;
+      color: white;
+      border-radius: 8px;
+      padding: 8px 18px;
+    }
+    .qty-btn {
+      background-color: #dcdcdc;
+      border: 1px solid #888;
+      padding: 2px 8px;
+      font-weight: bold;
+    }
+.top-bar {
+      background-color: #8B4A24;
+      color: white;
+      font-weight: 600;
+      text-align: center;
+      padding: 5px 0;
+    }
+    /* Navbar background */
+    .navbar-custom {
+      background-color: #F7E4B2;
+    }
+    .navbar-custom .nav-link {
+      font-weight: 600;
+      color: black;
+    }
+    .navbar-custom .nav-link:hover {
+      color: #8B4A24;
+    }
+    /* Search bar */
+    .search-box input {
+      border-radius: 20px;
+      border: 1px solid #8B4A24;
+    }
+    .search-box .btn {
+      border-radius: 50%;
+      border: none;
+      background: transparent;
+      color: #8B4A24;
+    }
+    .footer {
+      background-color: #8B4A24;
+      color: white;
+      padding: 40px 0 10px;
+    }
+    .footer h6 {
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .footer a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 6px;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .footer .social-icons a {
+      font-size: 1.5rem;
+      margin-right: 15px;
+      color: white;
+    }
+    .footer .social-icons a:hover {
+      color: #f7e4b2;
+    }
+    .footer-bottom {
+      border-top: 1px solid #ddd;
+      margin-top: 20px;
+      padding-top: 10px;
+      text-align: center;
+      font-size: 0.9rem;
+    }

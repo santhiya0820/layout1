@@ -1,0 +1,241 @@
+body {
+  background-color: #f7e4b2;
+}
+.top-bar {
+      background-color: #8B4A24;
+      color: white;
+      font-weight: 600;
+      text-align: center;
+      padding: 5px 0;
+    }
+    /* Navbar background */
+    .navbar-custom {
+      background-color: #F7E4B2;
+    }
+    .navbar-custom .nav-link {
+      font-weight: 600;
+      color: black;
+    }
+    .navbar-custom .nav-link:hover {
+      color: #8B4A24;
+    }
+    /* Search bar */
+    .search-box input {
+      border-radius: 20px;
+      border: 1px solid #8B4A24;
+    }
+    .search-box .btn {
+      border-radius: 50%;
+      border: none;
+      background: transparent;
+      color: #8B4A24;
+    }
+
+.cart-container {
+  background-color: #f7e4b2;
+  border: 1px solid #c7a978;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 30px auto;
+  max-width: 1000px;
+}
+
+.cart-item {
+  border-top: 1px solid #c7a978;
+  padding: 20px 0;
+}
+
+.cart-item img {
+  max-width: 180px;
+  border-radius: 8px;
+}
+
+.btn-buy {
+  background-color: #6e6b2c;
+  color: white;
+  border-radius: 20px;
+  padding: 6px 20px;
+}
+
+.btn-buy:hover {
+  background-color: #54511e;
+}
+
+.remove-link {
+  color: red;
+  font-weight: 500;
+  text-decoration: underline;
+  padding: 6px 20px;
+}
+
+.btn-continue {
+  background-color: #d89d9a;
+  color: black;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.btn-checkout {
+  background-color: #6e6b2c;
+  color: white;
+  border-radius: 8px;
+  padding: 8px 18px;
+}
+
+.qty-btn {
+  background-color: #dcdcdc;
+  border: 1px solid #888;
+  padding: 2px 8px;
+  font-weight: bold;
+}
+
+.top-bar {
+  background-color: #8B4513;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  padding: 8px 0;
+  font-weight: 600;
+}
+
+
+
+/* Hero Section Styles */
+.hero-section {
+  background-color: #6a0dad;
+  /* A deep purple color to match the image */
+  background-image: linear-gradient(to right, #6a0dad, #8a2be2);
+  /* Optional gradient */
+  height: 300px;
+  /* Adjust height as needed */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Styling for the first line of text in the hero section */
+.include-text {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: orange;
+}
+
+/* Styling for the main heading in the hero section */
+.celebrate-text {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: bold;
+  margin: 30px 0 10px;
+}
+
+.section-divider {
+  width: 50px;
+  height: 3px;
+  background-color: #8B4513;
+  margin: 10px auto 30px;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+  font-weight: 500;
+}
+
+.section-title {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.category-buttons {
+  background-color: #d2b885;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.category-buttons button {
+  background-color: #6d5c23;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.category-buttons button:hover {
+  background-color: #8b6f2f;
+}
+
+.cake-card {
+  border-radius: 15px;
+  overflow: hidden;
+  background: #f8f3d4;
+  transition: transform 0.2s ease-in-out;
+}
+    .footer {
+      background-color: #8B4A24;
+      color: white;
+      padding: 40px 0 10px;
+    }
+    .footer h6 {
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .footer a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 6px;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .footer .social-icons a {
+      font-size: 1.5rem;
+      margin-right: 15px;
+      color: white;
+    }
+    .footer .social-icons a:hover {
+      color: #f7e4b2;
+    }
+    .footer-bottom {
+      border-top: 1px solid #ddd;
+      margin-top: 20px;
+      padding-top: 10px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
